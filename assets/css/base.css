@@ -1,0 +1,130 @@
+@font-face {
+	font-weight: bold;
+	font-family: "Nunito-Black";
+	src: url("../fonts/NunitoSans-Black.ttf");
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Nunito-BlackItalic";
+	src: url("../fonts/NunitoSans-BlackItalic.ttf");
+	font-display: swap;
+}
+
+@font-face {
+	font-weight: 800;
+	font-family: "Nunito-Bold";
+	src: url("../fonts/NunitoSans-Bold.ttf");
+	font-display: swap;
+}
+
+@font-face {
+	font-weight: 800i;
+	font-family: "Nunito-BoldItalic";
+	src: url("../fonts/NunitoSans-BoldItalic.ttf");
+	font-display: swap;
+}
+
+@font-face {
+	font-weight: 900;
+	font-family: "Nunito-ExtraBold";
+	src: url("../fonts/NunitoSans-ExtraBold.ttf");
+	font-display: swap;
+}
+
+@font-face {
+	font-weight: 900i;
+	font-family: "Nunito-ExtraBoldItalic";
+	src: url("../fonts/NunitoSans-ExtraBoldItalic.ttf");
+	font-display: swap;
+}
+
+@font-face {
+	font-weight: 100;
+	font-family: "Nunito-ExtraLight";
+	src: url("../fonts/NunitoSans-ExtraLight.ttf");
+	font-display: swap;
+}
+
+@font-face {
+	font-weight: 100i;
+	font-family: "Nunito-ExtraLightItalic";
+	src: url("../fonts/NunitoSans-ExtraLightItalic.ttf");
+	font-display: swap;
+}
+
+@font-face {
+	font-weight: 300;
+	font-family: "Nunito-Light";
+	src: url("../fonts/NunitoSans-Light.ttf");
+	font-display: swap;
+}
+
+@font-face {
+	font-weight: 300i;
+	font-family: "Nunito-LightItalic";
+	src: url("../fonts/NunitoSans-LightItalic.ttf");
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Nunito-Regular";
+	src: url("../fonts/NunitoSans-Regular.ttf");
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Nunito-Italic";
+	src: url("../fonts/NunitoSans-Italic.ttf");
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Nunito-SemiBold";
+	src: url("../fonts/NunitoSans-SemiBold.ttf");
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Nunito-SemiBoldItalic";
+	src: url("../fonts/NunitoSans-SemiBoldItalic.ttf");
+	font-display: swap;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-weight: normal;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    list-style: none;
+    line-height: 1;
+    outline: 0px;
+    background: none;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    transition: 0.4s;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+body {
+    background-color: #fafafa;
+    overflow-x: hidden;
+    font-family: "Nunito-Black";
+    -ms-overflow-style: none;
+}
+

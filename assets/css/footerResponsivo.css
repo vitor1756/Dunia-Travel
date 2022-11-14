@@ -1,0 +1,80 @@
+/* FOOTER */
+
+.dt-footer {
+    width: 1140px;
+    margin: 120px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* FOOTER NAV */
+
+.dt-footer .dt-footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.dt-footer .dt-footer-content .dt-footer-info {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.dt-footer .dt-footer-content .dt-footer-info p {
+    font-family: "Nunito-Regular";
+    font-size: 20px;
+    line-height: 180%;
+    width: 300px;
+    color: #585C65;
+}
+
+.dt-footer .dt-footer-content .dt-footer-share {
+    display: flex;
+    gap: 30px;
+    transition: .8s;
+}
+
+.dt-footer .dt-footer-content .dt-footer-share a,.dt-footer .dt-footer-content .dt-footer-share img {
+    border-radius: 50%;
+}
+
+.dt-footer .dt-footer-content .dt-footer-share a:hover {
+    opacity: .8;
+}
+
+.dt-footer .dt-footer-nav {
+    display: flex;
+    gap: 50px;
+}
+
+.dt-footer .dt-footer-nav h3 {
+    font-family: "Nunito-Bold";
+    font-size: 20px;
+    line-height: 180%;
+    color: #40434A;
+}
+
+.dt-footer .dt-footer-nav div {
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+}
+
+.dt-footer .dt-footer-nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.dt-footer .dt-footer-nav ul li {
+    font-family: "Nunito-Regular";
+    font-size: 18px;
+    color: #70737C;
+    transition: .5s;
+}
+
+.dt-footer .dt-footer-nav ul li:hover {
+    color: #3d3f44;
+    transform: scale(1.1);
+}

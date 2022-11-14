@@ -1,0 +1,75 @@
+.home-container {
+    min-width: 1000px;
+    max-width: 1200px;
+    margin: 24px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+/* NEWSLETTER */
+
+.newsletter {
+    background-color: #0D76D8;
+    padding: 65px 65px 80px 65px;
+    border-radius: 30px;
+    display: flex;
+    gap: 27px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.newsletter h2 {
+    font-family: "Nunito-Black";
+    color: #fff;
+    font-size: 60px;
+    text-align: center;
+    width: 900px;
+    line-height: 140%;
+}
+
+.newsletter h3 {
+    font-family: "Nunito-Regular";
+    color: #fff;
+    font-size: 18px;
+    line-height: 180%;
+    width: 60%;
+    text-align: center;
+}
+
+.newsletter form {
+    display: flex;
+    gap: 20px;
+}
+
+.newsletter form div {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    display: flex;
+    width: 468px;
+    height: 61px;
+}
+
+.newsletter form div input {
+    width: 100%;
+    font-size: 16px;
+    font-family: "Nunito-Regular";
+    color: #fff;
+    border-radius: 10px;
+}
+
+.newsletter form div figure img {
+    padding: 17px;
+}
+
+.newsletter form button {
+    background-color: white;
+    padding: 15px 44px;
+    border-radius: 10px;
+    color: #0D76D8;
+    cursor: pointer;
+}
